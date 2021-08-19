@@ -9,7 +9,11 @@ jobs:
       matrix:
         python-version: [3.8, 3.9]
     steps:
-     - uses: actions/checkout@v2      
+     - uses: actions/checkout@v2
+     - name: Install dependecies
+       run: |
+         pip install poetry
+         make install      
      - name: Linter
        uses: actions/setup-python@v2
        with:
