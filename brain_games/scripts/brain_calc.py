@@ -1,14 +1,13 @@
 """Calculator game."""
 #!/usr/bin/env python
 import random
+from ..cli import welcome_user
 
 
 def calculator_game():
     """Calculator game."""
-    print('Welcome to the Brain Games!')
-    name = input('May I have your name? ').capitalize()
-    print(f'Hello, {name}!')
-
+    name = welcome_user()
+    
     signs = ['+', '-', '*']
 
     print('What is the result of the expression?')

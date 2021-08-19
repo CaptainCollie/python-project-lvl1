@@ -1,13 +1,12 @@
 #!/usr/bin/env python   
 """The game."""
 import random
+from ..cli import welcome_user
 
 
 def game():
     """The game function."""
-    print('Welcome to the Brain Games!')
-    name = input('May I have your name? ').capitalize()
-    print(f'Hello, {name}')
+    name = welcome_user()
     print('Answer "yes" if the number is even, otherwise answer "no".')
     flag = 1
     for _ in range(3):
