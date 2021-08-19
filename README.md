@@ -5,3 +5,6 @@
 
 Example
 [![asciicast](https://asciinema.org/a/EZuNHMPRIBbrnSliZGbO9Brgj.svg)](https://asciinema.org/a/EZuNHMPRIBbrnSliZGbO9Brgj )
+
+brain-calc
+[![asciicast](https://asciinema.org/a/7AATGew3Xr5fghxPsNCJqPZbN.svg)](https://asciinema.org/a/7AATGew3Xr5fghxPsNCJqPZbN )
