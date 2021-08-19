@@ -18,6 +18,7 @@ brain-even = "brain_games.scripts.brain_even:game"
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
 wemake-python-styleguide = "^0.15.3"
+asciinema = "^2.0.2"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
