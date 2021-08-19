@@ -29,6 +29,7 @@ def calculator_game():
             print('Correct!')
         else:
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
+            print(f"Let's try again, {name}!")  
             flag = 0
             break
     if flag:
