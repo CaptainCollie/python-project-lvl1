@@ -4,4 +4,4 @@
 [![Actions Status](https://github.com/CaptainCollie/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/CaptainCollie/python-project-lvl1/actions/workflows/github-actions.yml)
 
 Example
-[![asciicast](https://asciinema.org/a/wf7UzBVBi8FyFZSdor0zJn1uk.svg)](https://asciinema.org/a/wf7UzBVBi8FyFZSdor0zJn1uk)
+[![asciicast](https://asciinema.org/a/KK31xCkYbVzxXHCIg05LvIMy6 .svg)](https://asciinema.org/a/KK31xCkYbVzxXHCIg05LvIMy6 )
