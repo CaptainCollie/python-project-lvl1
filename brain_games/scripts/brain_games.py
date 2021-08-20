@@ -1,5 +1,5 @@
 """Brain games executable file."""
-#!/usr/bin/env python
+# #!/usr/bin/env python
 from ..cli import welcome_user
 
 

@@ -1,5 +1,5 @@
 """Calculator game."""
-#!/usr/bin/env python
+# #!/usr/bin/env python
 import random
 from ..cli import welcome_user
 
@@ -7,7 +7,6 @@ from ..cli import welcome_user
 def calculator_game():
     """Calculator game."""
     name = welcome_user()
-    
     signs = ['+', '-', '*']
 
     print('What is the result of the expression?')
@@ -24,12 +23,12 @@ def calculator_game():
             correct = rand_num1 - rand_num2
         else:
             correct = rand_num1 * rand_num2
-        
         if correct == answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
-            print(f"Let's try again, {name}!")  
+            print(f"'{answer}' is wrong answer ;(. "
+                    f"Correct answer was '{correct}'.")
+            print(f"Let's try again, {name}!")
             flag = 0
             break
     if flag:
