@@ -15,7 +15,7 @@ def progression_game():
         rand_start = random.randint(1, 30)
         rand_step = random.randint(2, 10)
         finish = rand_start + 1 + rand_step * 10
-        rand_el = random.randint(1, 9)
+        rand_el = random.randint(0, 9)
         
         list_gen = list(range(rand_start, finish, rand_step))
         unkwn_el = list_gen[rand_el]
