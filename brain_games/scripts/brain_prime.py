@@ -1,5 +1,5 @@
 """GCD game."""
-#!/usr/bin/env python
+# #!/usr/bin/env python
 import random
 from ..cli import welcome_user
 
@@ -20,18 +20,17 @@ def prime_game():
     for _ in range(3):
         rand_n = random.randint(1, 100)
         correct = 'yes' if is_prime(rand_n) else 'no'
-
         print(f'Question: {rand_n}')
         answer = input('Your answer: ')
 
         if answer == correct:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
+            print(f"'{answer}' is wrong answer ;(. "
+                    f"Correct answer was '{correct}'.")
             print(f"Let's try again, {name}!")
             flag = 0
             break
-    
     if flag:
         print(f'Congratulations, {name}!')
 

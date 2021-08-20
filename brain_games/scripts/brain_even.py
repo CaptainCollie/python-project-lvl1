@@ -1,5 +1,5 @@
-#!/usr/bin/env python   
 """The game."""
+# #!/usr/bin/env python
 import random
 from ..cli import welcome_user
 
@@ -13,7 +13,8 @@ def game():
         random_number = random.randint(1, 1000)
         print(f'Question: {random_number}')
         answer = input('Your answer: ').lower()
-        if (random_number % 2 == 0 and answer == 'yes') or (random_number % 2 == 1 and answer == 'no'):
+        if (random_number % 2 == 0 and answer == 'yes') or \
+                (random_number % 2 == 1 and answer == 'no'):
             print('Correct')
         else:
             flag = 0
@@ -21,7 +22,8 @@ def game():
                 correct = 'no'
             else:
                 correct = 'yes'
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
+            print(f"'{answer}' is wrong answer ;(. "
+                    f"Correct answer was '{correct}'.")
             print(f"Let's try again, {name}!")
             break
     if flag:
