@@ -18,12 +18,8 @@ def game():
             print('Correct')
         else:
             flag = 0
-            if answer == 'yes':
-                correct = 'no'
-            else:
-                correct = 'yes'
-            print(f"'{answer}' is wrong answer ;(. "
-                    f"Correct answer was '{correct}'.")
+            corr = 'yes' if answer == 'no' else 'no'
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{corr}'.")
             print(f"Let's try again, {name}!")
             break
     if flag:
