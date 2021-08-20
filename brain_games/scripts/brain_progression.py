@@ -19,7 +19,7 @@ def progression_game():
         
         list_gen = list(range(rand_start, finish, rand_step))
         unkwn_el = list_gen[rand_el]
-        print(f'Question: ', *[i if i != unkwn_el else unkwn for i in list_gen])
+        print(f'Question:', *[i if i != unkwn_el else unkwn for i in list_gen])
         answer = int(input('Your answer: '))
 
         if answer == list_gen[rand_el]:
