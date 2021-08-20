@@ -29,7 +29,6 @@ package-install:
 	python3 -m pip install --user dist/*.whl
 
 lint:
-	@ignore
 	poetry run flake8 brain_games
 
 rec:
