@@ -18,15 +18,15 @@ def calculator_game():
         print(f'Question: {rand_num1} {rand_sign} {rand_num2}')
         answer = int(input('Your answer: '))
         if rand_sign == '+':
-            corr = rand_num1 + rand_num2
+            cor = rand_num1 + rand_num2
         elif rand_sign == '-':
-            corr = rand_num1 - rand_num2
+            cor = rand_num1 - rand_num2
         else:
-            corr = rand_num1 * rand_num2
-        if corr == answer:
+            cor = rand_num1 * rand_num2
+        if cor == answer:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{corr}'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{cor}'.")
             print(f"Let's try again, {name}!")
             flag = 0
             break
