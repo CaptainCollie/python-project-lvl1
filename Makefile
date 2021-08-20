@@ -29,7 +29,8 @@ package-install:
 	python3 -m pip install --user dist/*.whl
 
 lint:
-	-poetry run flake8 brain_games
+	@ignore
+	poetry run flake8 brain_games
 
 rec:
 	poetry run asciinema rec
