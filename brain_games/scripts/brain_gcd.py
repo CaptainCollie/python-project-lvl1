@@ -21,12 +21,11 @@ def brain_gcd():
         rand2 = random.randint(1, 100)
         print(f'Question: {rand1} {rand2}')
         answer = int(input('Your answer: '))
-        correct = gcd(rand1, rand2)
-        if answer == correct:
+        corr = gcd(rand1, rand2)
+        if answer == corr:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'"
-                  ".")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{corr}'.")
             print(f"Let's try again, {name}!")
             flag = 0
             break
