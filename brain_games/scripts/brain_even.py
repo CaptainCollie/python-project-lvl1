@@ -22,7 +22,7 @@ def game():
             else:
                 correct = 'yes'
             print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'")
-            print(f"Let's try again, {name}")
+            print(f"Let's try again, {name}!")
             break
     if flag:
         print(f'Congratulations, {name}!')
