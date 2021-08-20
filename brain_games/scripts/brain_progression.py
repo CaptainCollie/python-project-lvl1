@@ -23,8 +23,8 @@ def progression_game():
         if answer == list_gen[rand_el]:
             print('Correct!')
         else:
-            correct = list_gen[rand_el]
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
+            corr = list_gen[rand_el]
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{corr}'.")
             print(f"Let's try again, {name}!")
             flag = 0
             break
