@@ -21,7 +21,6 @@ brain-prime = "brain_games.scripts.brain_prime:prime_game"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^3.9.2"
-wemake-python-styleguide = "^0.15.3"
 asciinema = "^2.0.2"
 
 [build-system]
