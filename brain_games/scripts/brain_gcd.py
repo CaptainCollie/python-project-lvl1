@@ -14,7 +14,7 @@ def gcd(a, b):
 def brain_gcd():
     """GCD game."""
     name = welcome_user()
-    print('Find the greatest common divisor of given numbers.')    
+    print('Find the greatest common divisor of given numbers.')
     flag = 1
     for _ in range(3):
         rand1 = random.randint(1, 100)
@@ -25,8 +25,8 @@ def brain_gcd():
         if answer == correct:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. "
-                    f"Correct answer was '{correct}'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'"
+                  ".")
             print(f"Let's try again, {name}!")
             flag = 0
             break
