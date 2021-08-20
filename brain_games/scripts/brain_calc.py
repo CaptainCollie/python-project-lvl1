@@ -33,7 +33,7 @@ def calculator_game():
             flag = 0
             break
     if flag:
-        print(f'Congratulations, {name}')
+        print(f'Congratulations, {name}!')
 
 
 if __name__ == '__main__':
