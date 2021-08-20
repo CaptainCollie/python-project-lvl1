@@ -19,15 +19,14 @@ def prime_game():
     flag = 1
     for _ in range(3):
         rand_n = random.randint(1, 100)
-        correct = 'yes' if is_prime(rand_n) else 'no'
+        corr = 'yes' if is_prime(rand_n) else 'no'
         print(f'Question: {rand_n}')
         answer = input('Your answer: ')
 
-        if answer == correct:
+        if answer == corr:
             print('Correct!')
         else:
-            print(f"'{answer}' is wrong answer ;(. "
-                    f"Correct answer was '{correct}'.")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{corr}'.")
             print(f"Let's try again, {name}!")
             flag = 0
             break
