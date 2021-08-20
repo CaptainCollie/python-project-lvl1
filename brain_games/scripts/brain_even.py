@@ -21,7 +21,7 @@ def game():
                 correct = 'no'
             else:
                 correct = 'yes'
-            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'")
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
             print(f"Let's try again, {name}!")
             break
     if flag:
