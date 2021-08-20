@@ -13,6 +13,9 @@ brain-calc:
 brain-gcd:
 	poetry run brain-gcd
 
+brain-progression:
+	poetry run brain-progression
+
 build:
 	poetry build
 
@@ -27,4 +30,7 @@ lint:
 
 rec:
 	poetry run asciinema rec
+
+reinstall:
+	python3 -m pip install --user --force-reinstall dist/*.whl
 
