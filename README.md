@@ -4,7 +4,7 @@
 [![Actions Status](https://github.com/CaptainCollie/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/CaptainCollie/python-project-lvl1/actions/workflows/github-actions.yml)
 
 brain-even
-[![asciicast](https://asciinema.org/a/6GFVSplwlxlX4Tpddpeyv05GC.svg)](https://asciinema.org/a/6GFVSplwlxlX4Tpddpeyv05GC)
+[![asciicast](https://asciinema.org/a/AEPismdA8n7t2A3usomEzYbt3.svg)](https://asciinema.org/a/AEPismdA8n7t2A3usomEzYbt3)
 
 brain-calc
 [![asciicast](https://asciinema.org/a/Jb2sEwlsUqv99DLnUDb5i25Jt.svg)](https://asciinema.org/a/Jb2sEwlsUqv99DLnUDb5i25Jt)
