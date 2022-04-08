@@ -5,16 +5,15 @@ import random
 
 def calculator_game():
     """Calculator game."""
-    signs = ['+', '-', '*']
     rand_num1 = random.randint(1, 100)
     rand_num2 = random.randint(1, 100)
-    rand_sign = random.choice(signs)
+    signs_map = {
+        '+': rand_num1 + rand_num2,
+        '-': rand_num1 - rand_num2,
+        '*': rand_num1 * rand_num2
+    }
+    rand_sign = random.choice(list(signs_map.keys()))
     print(f'Question: {rand_num1} {rand_sign} {rand_num2}')
     answer = int(input('Your answer: '))
-    if rand_sign == '+':
-        cor = rand_num1 + rand_num2
-    elif rand_sign == '-':
-        cor = rand_num1 - rand_num2
-    else:
-        cor = rand_num1 * rand_num2
+    cor = signs_map.get(rand_sign, '')
     return answer, cor
