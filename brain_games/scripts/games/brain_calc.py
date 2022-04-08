@@ -1,7 +1,6 @@
 """Calculator game."""
 # #!/usr/bin/env python
 import random
-from brain_games.scripts.brain_games import start_game
 
 
 def calculator_game():
@@ -19,12 +18,3 @@ def calculator_game():
     else:
         cor = rand_num1 * rand_num2
     return answer, cor
-
-
-def main():
-    description = 'What is the result of the expression?'
-    start_game(calculator_game, description)
-
-
-if __name__ == '__main__':
-    main()

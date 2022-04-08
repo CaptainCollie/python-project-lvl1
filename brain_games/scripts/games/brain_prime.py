@@ -1,7 +1,6 @@
 """GCD game."""
 # #!/usr/bin/env python
 import random
-from brain_games.scripts.brain_games import start_game
 
 
 def is_prime(n):
@@ -18,12 +17,3 @@ def prime_game():
     print(f'Question: {rand_n}')
     answer = input('Your answer: ')
     return answer, cor
-
-
-def main():
-    description = 'Answer "yes" if given number is prime. Otherwise answer "no".'  # noqa: E501
-    start_game(prime_game, description)
-
-
-if __name__ == '__main__':
-    main()

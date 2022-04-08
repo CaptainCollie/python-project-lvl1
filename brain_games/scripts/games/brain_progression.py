@@ -1,7 +1,6 @@
 """Progression game."""
 # #!/usr/bin/env python
 import random
-from brain_games.scripts.brain_games import start_game
 
 
 def progression_game():
@@ -17,12 +16,3 @@ def progression_game():
     answer = int(input('Your answer: '))
     cor = list_gen[rand_el]
     return answer, cor
-
-
-def main():
-    description = 'What number is missing in the progression?'
-    start_game(progression_game, description)
-
-
-if __name__ == '__main__':
-    main()
