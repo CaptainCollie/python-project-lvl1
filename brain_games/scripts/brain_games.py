@@ -58,7 +58,3 @@ def check_answer(name, answer, correct):
         print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
         print(f"Let's try again, {name}!")
         return False
-
-
-if __name__ == '__main__':
-    main()
