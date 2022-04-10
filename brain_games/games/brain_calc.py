@@ -13,6 +13,6 @@ def calculator_game():
         '*': rand_num1 * rand_num2
     }
     rand_sign = random.choice(list(signs_map.keys()))
-    cor = signs_map.get(rand_sign, '')
+    cor = str(signs_map.get(rand_sign, ''))
     question = [f'{rand_num1} {rand_sign} {rand_num2}']
     return question, cor

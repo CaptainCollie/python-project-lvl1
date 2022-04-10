@@ -7,7 +7,7 @@ def start_game(game, game_description):
     for _ in range(3):
         question, correct = game()
         print('Question:', *question)
-        answer = int(input('Your answer: '))
+        answer = input('Your answer: ').lower()
         if not check_answer(name, answer, correct):
             break
     else:

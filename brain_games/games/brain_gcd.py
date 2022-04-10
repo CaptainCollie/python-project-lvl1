@@ -14,5 +14,5 @@ def brain_gcd():
     """GCD game."""
     rand1 = random.randint(1, 100)
     rand2 = random.randint(1, 100)
-    cor = gcd(rand1, rand2)
+    cor = str(gcd(rand1, rand2))
     return [rand1, rand2], cor

@@ -13,5 +13,5 @@ def progression_game():
     list_gen = list(range(rand_start, finish, rand_step))
     unkwn_el = list_gen[rand_el]
     question = [i if i != unkwn_el else unkwn for i in list_gen]
-    cor = list_gen[rand_el]
+    cor = str(list_gen[rand_el])
     return question, cor
