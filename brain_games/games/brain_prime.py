@@ -1,5 +1,5 @@
 """GCD game."""
-# #!/usr/bin/env python
+# !/usr/bin/env python
 import random
 
 
@@ -14,6 +14,4 @@ def is_prime(n):
 def prime_game():
     rand_n = random.randint(1, 100)
     cor = 'yes' if is_prime(rand_n) else 'no'
-    print(f'Question: {rand_n}')
-    answer = input('Your answer: ')
-    return answer, cor
+    return [rand_n], cor

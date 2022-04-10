@@ -1,5 +1,5 @@
 """GCD game."""
-# #!/usr/bin/env python
+# !/usr/bin/env python
 import random
 
 
@@ -14,7 +14,5 @@ def brain_gcd():
     """GCD game."""
     rand1 = random.randint(1, 100)
     rand2 = random.randint(1, 100)
-    print(f'Question: {rand1} {rand2}')
-    answer = int(input('Your answer: '))
     cor = gcd(rand1, rand2)
-    return answer, cor
+    return [rand1, rand2], cor
