@@ -2,17 +2,19 @@
 # !/usr/bin/env python
 import random
 
+description = 'What is the result of the expression?'
 
-def calculator_game():
+
+def game():
     """Calculator game."""
     rand_num1 = random.randint(1, 100)
     rand_num2 = random.randint(1, 100)
     signs_map = {
-        '+': rand_num1 + rand_num2,
-        '-': rand_num1 - rand_num2,
-        '*': rand_num1 * rand_num2
+        '+': lambda x, y: x + y,
+        '-': lambda x, y: x - y,
+        '*': lambda x, y: x * y
     }
     rand_sign = random.choice(list(signs_map.keys()))
-    cor = str(signs_map.get(rand_sign, ''))
+    correct = str(signs_map.get(rand_sign)(rand_num1, rand_num2))
     question = [f'{rand_num1} {rand_sign} {rand_num2}']
-    return question, cor
+    return question, correct

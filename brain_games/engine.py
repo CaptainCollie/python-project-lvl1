@@ -1,24 +1,18 @@
 from brain_games.cli import welcome_user
 
 
-def start_game(game, game_description):
+def start_game(game):
     name = welcome_user()
-    print(game_description)
+    print(game.description)
     for _ in range(3):
-        question, correct = game()
+        question, correct = game.game()
         print('Question:', *question)
         answer = input('Your answer: ').lower()
-        if not check_answer(name, answer, correct):
-            break
+        if answer == correct:
+            print('Correct!')
+        else:
+            print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
+            print(f"Let's try again, {name}!")
+            return
     else:
         print(f'Congratulations, {name}!')
-
-
-def check_answer(name, answer, correct):
-    if answer == correct:
-        print('Correct!')
-        return True
-    else:
-        print(f"'{answer}' is wrong answer ;(. Correct answer was '{correct}'.")
-        print(f"Let's try again, {name}!")
-        return False

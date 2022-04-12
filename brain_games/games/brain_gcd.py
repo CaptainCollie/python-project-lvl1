@@ -2,6 +2,8 @@
 # !/usr/bin/env python
 import random
 
+description = 'Find the greatest common divisor of given numbers.'
+
 
 def gcd(a, b):
     """Find GCD."""
@@ -10,9 +12,9 @@ def gcd(a, b):
     return gcd(a - b, b) if a > b else gcd(a, b - a)
 
 
-def brain_gcd():
+def game():
     """GCD game."""
     rand1 = random.randint(1, 100)
     rand2 = random.randint(1, 100)
-    cor = str(gcd(rand1, rand2))
-    return [rand1, rand2], cor
+    correct = str(gcd(rand1, rand2))
+    return [rand1, rand2], correct

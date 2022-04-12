@@ -2,13 +2,15 @@
 # !/usr/bin/env python
 import random
 
+description = 'Answer "yes" if the number is even, otherwise answer "no".'
+
 
 def is_even(n):
     return n % 2 == 0
 
 
-def brain_even():
+def game():
     """The game function."""
     random_number = random.randint(1, 1000)
-    cor = 'yes' if is_even(random_number) else 'no'
-    return [random_number], cor
+    correct = 'yes' if is_even(random_number) else 'no'
+    return [random_number], correct

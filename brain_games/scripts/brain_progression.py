@@ -1,7 +1,6 @@
 from brain_games.engine import start_game
-from brain_games.games.brain_progression import progression_game
+from brain_games.games import brain_progression
 
 
 def main():
-    description = 'What number is missing in the progression?'
-    start_game(progression_game, description)
+    start_game(brain_progression)
