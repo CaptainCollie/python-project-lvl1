@@ -1,10 +1,10 @@
 from brain_games.cli import welcome_user
 
 
-def start_game(game):
+def start_game(game, n=3):
     name = welcome_user()
     print(game.description)
-    for _ in range(3):
+    for _ in range(n):
         question, correct = game.game()
         print('Question:', *question)
         answer = input('Your answer: ').lower()
