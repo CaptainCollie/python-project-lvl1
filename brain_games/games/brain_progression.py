@@ -14,7 +14,7 @@ def run():
     rand_el = random.randint(0, 9)
     generated_progression = list(range(rand_start, finish, rand_step))
     unknown_element = generated_progression[rand_el]
-    question = ' '.join([i if i != unknown_element else '..'
+    question = ' '.join([str(i) if i != unknown_element else '..'
                          for i in generated_progression])
     correct = str(generated_progression[rand_el])
     return question, correct
