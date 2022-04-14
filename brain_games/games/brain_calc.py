@@ -2,10 +2,10 @@
 # !/usr/bin/env python
 import random
 
-description = 'What is the result of the expression?'
+DESCRIPTION = 'What is the result of the expression?'
 
 
-def game():
+def run():
     """Calculator game."""
     rand_num1 = random.randint(1, 100)
     rand_num2 = random.randint(1, 100)
