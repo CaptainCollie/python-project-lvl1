@@ -16,5 +16,5 @@ def run():
     }
     rand_sign = random.choice(list(signs_map.keys()))
     correct = str(signs_map.get(rand_sign)(rand_num1, rand_num2))
-    question = [f'{rand_num1} {rand_sign} {rand_num2}']
+    question = f'{rand_num1} {rand_sign} {rand_num2}'
     return question, correct
