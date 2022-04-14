@@ -9,7 +9,7 @@ def run():
     """Progression game."""
     rand_start = random.randint(1, 30)
     rand_step = random.randint(2, 10)
-    progression_length = 10
+    progression_length = random.randint(5, 10)
     finish = rand_start + 1 + rand_step * progression_length
     rand_el = random.randint(0, 9)
     generated_progression = list(range(rand_start, finish, rand_step))
