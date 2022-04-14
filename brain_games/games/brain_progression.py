@@ -11,7 +11,7 @@ def run():
     rand_step = random.randint(2, 10)
     progression_length = random.randint(5, 10)
     finish = rand_start + 1 + rand_step * progression_length
-    rand_el = random.randint(0, 9)
+    rand_el = random.randint(0, progression_length - 1)
     generated_progression = list(range(rand_start, finish, rand_step))
     unknown_element = generated_progression[rand_el]
     question = ' '.join([str(i) if i != unknown_element else '..'
