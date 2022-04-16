@@ -2,7 +2,8 @@
 # !/usr/bin/env python
 import random
 
-DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'  # noqa: E501
+DESCRIPTION = 'Answer "yes" if given number is prime. ' \
+              'Otherwise answer "no".'
 
 
 def is_prime(n):
@@ -15,7 +16,7 @@ def is_prime(n):
     return True if d * d > n else False
 
 
-def run():
+def get_question_and_correct_answer():
     rand_n = random.randint(1, 100)
     correct = 'yes' if is_prime(rand_n) else 'no'
     question = str(rand_n)

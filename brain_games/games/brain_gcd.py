@@ -12,7 +12,7 @@ def gcd(a, b):
     return gcd(a - b, b) if a > b else gcd(a, b - a)
 
 
-def run():
+def get_question_and_correct_answer():
     """GCD game."""
     rand1 = random.randint(1, 100)
     rand2 = random.randint(1, 100)

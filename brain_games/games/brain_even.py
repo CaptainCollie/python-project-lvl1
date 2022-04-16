@@ -9,7 +9,7 @@ def is_even(n):
     return n % 2 == 0
 
 
-def run():
+def get_question_and_correct_answer():
     """The game function."""
     random_number = random.randint(1, 1000)
     correct = 'yes' if is_even(random_number) else 'no'

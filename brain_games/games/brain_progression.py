@@ -5,7 +5,7 @@ import random
 DESCRIPTION = 'What number is missing in the progression?'
 
 
-def run():
+def get_question_and_correct_answer():
     """Progression game."""
     rand_start = random.randint(1, 30)
     rand_step = random.randint(2, 10)

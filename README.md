@@ -1,8 +1,11 @@
 ### Hexlet tests and linter status:
 [![Actions Status](https://github.com/CaptainCollie/python-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/CaptainCollie/python-project-lvl1/actions)
-[![Maintainability](https://api.codeclimate.com/v1/badges/a99a88d28ad37a79dbf6/maintainability)](https://codeclimate.com/github/codeclimate/codeclimate/maintainability)
+[![Maintainability](https://api.codeclimate.com/v1/badges/1f0b73a01a10d1345018/maintainability)](https://codeclimate.com/github/CaptainCollie/python-project-lvl1/maintainability)
 [![Actions Status](https://github.com/CaptainCollie/python-project-lvl1/actions/workflows/github-actions.yml/badge.svg)](https://github.com/CaptainCollie/python-project-lvl1/actions/workflows/github-actions.yml)
 
+The first project of Hexlet Python Developer course.
+
+There are five simple math quizzes. 
 
 - Even check `brain-even`
 - Calculator `brain-calc`
