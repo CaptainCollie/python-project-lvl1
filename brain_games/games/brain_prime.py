@@ -13,7 +13,7 @@ def is_prime(n):
     d = 2
     while d * d <= n and n % d != 0:
         d += 1
-    return True if d * d > n else False
+    return d * d > n
 
 
 def get_question_and_correct_answer():
