@@ -1,5 +1,4 @@
 """The game that ask you to asnwer if number is even or not"""
-# !/usr/bin/env python
 import random
 
 DESCRIPTION = 'Answer "yes" if the number is even, otherwise answer "no".'

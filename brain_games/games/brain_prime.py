@@ -1,5 +1,4 @@
 """GCD game."""
-# !/usr/bin/env python
 import random
 
 DESCRIPTION = 'Answer "yes" if given number is prime. ' \
